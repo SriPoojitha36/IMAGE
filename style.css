@@ -1,0 +1,31 @@
+.gallery-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-image img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.navigation button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    object-fit: cover;
+}
